@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ส่วนนี้ไม่แสดงออกไปในหน้าจอของ Browser -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #register{
+        font-size: 24px;
+        background-color: rgb(12, 255, 97);
+        font-weight: 800;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid rgb(255, 0, 0);
+        padding-left: 10px;
+
+        }
+        @font-face {
+            font-family: 'Kanit';
+            src:  url('241-820/Kanit/Kanit-Regular.ttf') format('truetype');
+        }
+        form{
+            font-family: 'Kanit', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+   <!-- ส่วนที่แสดงออกไปในหน้า Browser -->
+   <!-- form -->
+    <div id="Register">Register From</div>
+    ชื่อ <input class="form" type="text"> </dr> 
+    นามสกุล <input class="form" type="text"> <br>
+    อายุ <input class="form" type="number" min="0" max="150"> <br>
+    เพศ <input class="form" type="radio" name="gender" value="male"> ชาย
+           <input class="form" type="radio" name="gender" value="female"> หญิง<br>
+
+</body>
+</html>
