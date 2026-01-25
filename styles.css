@@ -1,0 +1,92 @@
+/* ตั้งค่าพื้นฐาน */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* กล่องคอนเทนเนอร์หลัก */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* หัวข้อ Register Form */
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* การจัดวางแบบ Flex */
+.flex {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* เว้นระยะห่างแต่ละช่อง input */
+.form-input {
+    margin-bottom: 15px;
+}
+
+/* หัวข้อของแต่ละ input */
+.header-form {
+    min-width: 80px;
+    font-weight: 600;
+    color: #555;
+}
+
+/* ปรับแต่งช่องกรอกข้อความ */
+.form, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* ทำให้ padding ไม่ดันความกว้างออก */
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+    margin-top: 5px;
+}
+
+/* ปรับแต่งส่วนเพศ */
+.gender .flex {
+    gap: 10px;
+}
+
+/* ปุ่มกด */
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #218838;
+}
